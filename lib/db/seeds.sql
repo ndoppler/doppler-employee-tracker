@@ -14,3 +14,15 @@ VALUES  ('Salesperson', 50000, 01),
         ('HR Manager', 55000, 03);
 
 SELECT * FROM  role;
+
+INSERT INTO employee (first_name, last_name, role_id)
+VALUES  ('Jim', 'Thomas', 02),
+        ('Maya', 'Meiser', 04),
+        ('Stephanie', 'Stephanopolis', 06);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES  ('Ernie', 'Erickson', 01, 01),
+        ('Josh', 'Rover', 03, 02),
+        ('Emily', 'Allen', 05, 03);
+
+SELECT * FROM employee;
