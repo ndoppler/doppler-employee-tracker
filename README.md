@@ -4,7 +4,7 @@
 The purpose of this challenge was to build a CLI application that allowed the user to view departments, role and employees in a company. It also allowed the user to update an employee's role, as well as add new departments roles and employees. I had functionality that accepted user text and selections via inquirer and utilized the pg package and postgres database to query and perform CRUD operations on the data.
 
 ## Description
-This App allows users to view, update, and create departments, roles, and employees in their company from a CLI application.
+This App allows users to view, update, and create departments, roles, and employees in their company from a CLI application. This is accomplished using a Postgres database that uses inquirer as the command line user interface and the pg package as the conduit to perform CRUD operations between the user's command line and the database.
 
 ## Usage
 To run this project, please navigate to [https://github.com/ndoppler/doppler-employee-tracker](https://github.com/ndoppler/doppler-employee-tracker). You can clone the repository and utilize this by running it through node js.
